@@ -1,0 +1,192 @@
+html,body {
+  margin: 0;                               /*Abstand zum Rand [margin schließt automatisch margin top,bottom,left und right ein]*/
+  height: 100%;                            /*Jede section im body ist eine Seite hoch*/
+  text-align: center;                      /*Alle Texte werden in der Mitte angezeigt*/
+}
+
+
+li, img {
+	transition: all 175ms;                 /*Übergangsgeschwindigkeit der Effekte wie "opacity" und "padding-top"*/
+}
+
+
+a {
+	text-decoration: none;                 /*Serifen werden auscheschaltet*/
+}
+
+
+li {
+  list-style-type: none;                   /*Es werden keine Listenpunkte gezeigt*/
+}
+
+
+h2, h3, h5, a {
+  font-family:sans-serif;                  /*Schriftart*/
+  color: #3c3c3c;                          /*Die Farbe die benutzt wird*/
+}
+
+
+
+h2 {
+  color: #3b484c;                          /*Die Farbe die benutzt wird*/
+}
+
+
+h3 {
+  font-size: 55px;                         /*Schriftgröße*/
+  padding-top: 7%;                         /*Abstand von der Überschrift und den unteren Elementen zum Sectionende (oben)*/
+  margin-bottom: 10px;                      /*Abstand der Überschrift zum nächtem Element*/
+}
+
+h8 {
+  font-size: 23px;                         /*Schriftgröße*/
+  padding-top: 7%;                         /*Abstand von der Überschrift und den unteren Elementen zum Sectionende (oben)*/
+  margin-bottom: 33px;                      /*Abstand der Überschrift zum nächtem Element*/
+  font-family:sans-serif;                  /*Schriftart*/
+  color: #3c3c3c;                          /*Die Farbe die benutzt wird*/
+}
+
+ {
+  font-family: serif;                       /*Serifen*/
+    color: #3c3c3c;                         /*Farbe*/
+	text-align: center;                     /*Texte werden in die Mitte geschoben*/
+}
+
+section {
+  min-height: 100%;                        /*Jede section im body ist eine Seite hoch*/
+}
+
+
+
+
+
+/***************Hier fängt der HOME-bereich an.***************/
+
+
+
+.home p {
+  font-size: 1px;                              /*Schriftgröße*/
+}
+
+
+.home {
+	background: url(pics/background1.jpg);   /*Verlinkung des Hintergrundbildes*/
+	background-position: center center;    /*Ausrichtung des Hintergrundbildes*/
+	background-size: cover;                /*Passende Größe des Hintergrundbildes*/
+	background-attachment: fixed;          /*Fixierte Besfestigung des Hintergrundbildes (damit es nicht)*/
+}
+
+.home a {
+color: #3b484c;                          /*Die Farbe die benutzt wird*/
+margin: 500px auto auto 0px;
+font-size: 30px;
+}
+
+.home h5 {
+	margin: 350px auto 0 auto;            /*300Pixel Abstand nach oben, automatisch anch Links und Rechts (durch "text-align: center) in der Mitte und 0 Pixel Abstand nach Unten*/
+	font-size: 85px;                     /*Textgröße*/
+}
+
+
+.home h2 {
+	margin-left:150px;               /*Abstand zur linken Seite*/
+	font-size: 35px;                    /*Textgröße*/
+}
+
+
+
+
+/***************Hier fängt der uprank-bereich an.***************/
+
+.uprank {
+	background-color: #fff0f0;         /*Hintergrundfarbe*/
+}
+
+
+.uprank img {
+	width: 250px;                         /*Größe eines einzelnen Bildes*/
+	height: 150px;                        /*Höhe*/
+	border-radius: 10px;                  /*Abrundung der Ecken*/
+}
+
+
+.uprank img:hover {
+	transform: scale(1.25);               /*Vergrößerung des Bildes beim drübergehen*/
+
+}
+
+
+.uprank ul li {
+	width: 50%;                       /*Größe der Listenansicht*/
+	float: left;                        /*Ausrichtung von dem letzten Element ausgehend*/
+	margin: 32px auto 32px auto;        /*Abstand nach oben, links, rechts und unten*/
+}
+
+
+/***************Hier fängt der MEMBERS-bereich an.***************/
+
+.members {
+	background-color: white;         /*Hintergrundfarbe*/
+}
+
+
+.members img {
+	width: 250px;                         /*Größe eines einzelnen Bildes*/
+	height: 150px;                        /*Höhe*/
+	border-radius: 10px;                  /*Abrundung der Ecken*/
+}
+
+
+.members img:hover {
+	transform: scale(1.25);               /*Vergrößerung des Bildes beim drübergehen*/
+
+}
+
+
+.members ul li {
+	width: 50%;                       /*Größe der Listenansicht*/
+	float: left;                        /*Ausrichtung von dem letzten Element ausgehend*/
+	margin: 32px auto 32px auto;        /*Abstand nach oben, links, rechts und unten*/
+}
+
+
+/***************Hier fängt der ABOUT-bereich an.***************/
+
+
+
+.about img:hover {
+	transform: scale(1.2);            /*Vergrößerung des Bildes beim drübergehen*/
+}
+
+.about img {
+	width: 250px;                         /*Größe eines einzelnen Bildes*/
+	height: 150px;                        /*Höhe*/
+	border-radius: 10px;                  /*Abrundung der Ecken*/
+}
+
+.about h4 {
+	font-size: 25px;                   /*Schriftgröße*/
+}
+
+/***************Hier fängt der silent.member-bereich an.***************/
+
+.row {
+  display: flex;
+  margin-top: 75px;
+}
+
+.column {
+  flex: 50%;
+}
+
+.column img {
+	width: 500px;                         /*Größe eines einzelnen Bildes*/
+	height: 300px;                        /*Höhe*/
+	border-radius: 10px;                  /*Abrundung der Ecken*/
+}
+
+
+.column img:hover {
+	transform: scale(1.25);               /*Vergrößerung des Bildes beim drübergehen*/
+
+}
